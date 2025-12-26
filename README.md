@@ -1,11 +1,14 @@
 # Evaluating AI-Based Tools for Aptamer–Protein Interaction Prediction
 
+**Full project write-up:** [View PDF](project_writeup.pdf)
+
 ## Overview
 This project evaluates the reliability, consistency, and limitations of modern AI-driven and physics-based computational tools for predicting aptamer–protein interactions. Rather than developing new machine learning models, the focus is on **comparative analysis**, **model confidence interpretation**, and **biological plausibility** under realistic constraints.
 
 Aptamers are short DNA or RNA molecules capable of binding proteins with high specificity and affinity, making them attractive alternatives to antibodies in diagnostics and therapeutics. However, experimental identification of effective aptamer binders—especially dual-aptamer “sandwich” pairs—remains costly and time-consuming. Recent advances in AI-based structural biology tools promise to accelerate early-stage screening, but their reliability for flexible nucleic acid–protein systems is still not well understood.
 
 This project asks: *How consistent and informative are current computational predictions, and when should they be interpreted cautiously?*
+<img width="206" height="166" alt="image" src="https://github.com/user-attachments/assets/9215687d-d630-40e1-b0b9-2ecba17beb34" />
 
 ---
 
@@ -16,6 +19,16 @@ This project asks: *How consistent and informative are current computational pre
 - Evaluate whether predictions could support early-stage aptamer screening
 - Highlight practical and methodological limitations of current tools
 
+---
+
+## Skills Demonstrated
+- Comparative evaluation of AI-based and physics-based models
+- Interpretation of model confidence metrics and uncertainty
+- Structural bioinformatics analysis
+- Integration of heterogeneous model outputs
+- Critical assessment of AI applicability in real biological settings
+- Technical communication of complex results
+  
 ---
 
 ## Data
@@ -48,6 +61,11 @@ Thrombin–aptamer interactions were used as a reference to contextualize model 
   - ipTM (interface confidence)
 - Evaluated sensitivity to input ordering and multi-component modeling assumptions
 
+<img width="259" height="139" alt="image" src="https://github.com/user-attachments/assets/b675bd6c-dab9-4c4b-b94b-3162499a9b7c" />
+Figure 3. Results from AlphaFold 3
+
+
+
 ### AptaTrans
 - Deep learning pipeline for predicting aptamer–protein interaction (API) scores
 - Used to rank candidate aptamers by predicted interaction strength
@@ -57,6 +75,9 @@ Thrombin–aptamer interactions were used as a reference to contextualize model 
 - Physics-based docking server
 - Provided binding scores, cluster statistics, RMSD, and energetic components
 - Used as an independent comparison to AI-based predictions
+
+<img width="229" height="116" alt="image" src="https://github.com/user-attachments/assets/8b1044ad-f71e-42ef-9f84-d5be338cc3a9" />
+Figure 3. Results from Haddock
 
 ### PyMOL
 - Structural visualization and geometric analysis
@@ -100,20 +121,14 @@ While AI-based and docking tools can accelerate hypothesis generation, their pre
 
 High global confidence does not necessarily imply reliable interface prediction. These tools should therefore be used **comparatively and cautiously**, rather than as definitive predictors.
 
+<img width="411" height="156" alt="image" src="https://github.com/user-attachments/assets/f53a3d94-012d-4e0e-92e0-112f3201058b" />
+Figure 4. The closest distance between aptamers RE31 and HD22 (Thrombin).
+
+
 ---
 
 ## Key Takeaway
 This project demonstrates how modern AI tools can be critically evaluated in a realistic scientific context by integrating confidence metrics, structural inspection, and biological reasoning. Rather than treating AI outputs as ground truth, the analysis emphasizes uncertainty awareness, methodological limitations, and interpretability—core skills in applied data science and bioinformatics.
-
----
-
-## Skills Demonstrated
-- Comparative evaluation of AI-based and physics-based models
-- Interpretation of model confidence metrics and uncertainty
-- Structural bioinformatics analysis
-- Integration of heterogeneous model outputs
-- Critical assessment of AI applicability in real biological settings
-- Technical communication of complex results
 
 ---
 
@@ -125,6 +140,6 @@ This project demonstrates how modern AI tools can be critically evaluated in a r
 
 ---
 
-## Author
-*Your Name*  
-Bioinformatics | Data Analysis | Applied Machine Learning
+## Authors
+**Authors:** Imose Iduozee, Matias Ylitolva, Joonatan Lindfors, Sofia Hänninen, Jaakko Pulkkinen, Linda Jalonen
+This project was completed as a collaborative academic project.
