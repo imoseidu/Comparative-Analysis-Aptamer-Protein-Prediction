@@ -142,4 +142,3 @@ This project demonstrates how modern AI tools can be critically evaluated in a r
 
 ## Authors
 **Authors:** Imose Iduozee, Matias Ylitolva, Joonatan Lindfors, Sofia Hänninen, Jaakko Pulkkinen, Linda Jalonen
-This project was completed as a collaborative academic project.
